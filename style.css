@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+
+}.main{
+    height: 100%;
+    width: 100%;
+  background: linear-gradient(to top , pink, white, rgb(179, 84, 179));
+    font-family: Cambria;
+  
+}h1{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 30%;
+    font-family: Cambria;
+ 
+}.content{
+    height: 70%;
+    width: 70%;
+  
+    display: flex;
+    gap: 15%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+  
+}img{
+    height: 100%;width: 100%;
+   
+}
+h2{
+    font-size: 200%;
+    padding-left: 5%;
+
+}
+ul{
+    width: 50%;height: 15%;
+    list-style-type: none;
+     display: flex;
+    gap: 10%;
+    padding-top: 2%;
+    font-size: 100%;
+    font-weight: 700;
+    margin-left: 5%;
+}.img{
+    height: 70%;
+    width: 80%;
+    background-color: rgb(243, 238, 238);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  animation: change 20s linear infinite forwards;
+}.footer{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    /* font-size:15px; */
+    gap: 15%;
+    
+}
+
+
+
+    
+
+    button{
+      
+    position: absolute;
+    top: 102%;
+    left: 40%;
+    font-size: 150%;
+    font-weight: 900;
+ background-color: transparent;
+ border: none;
+
+
+ 
+
+}.page{
+    display: flex;
+    gap: 25%;
+    padding-top:38%;
+    font-size: 20px;
+    padding-left: 7%;
+padding-top: 43%;
+ 
+}.page>h3>i{
+font-size: 25px;
+color: rgb(6, 48, 107);
+
+}
